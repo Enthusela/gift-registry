@@ -4,7 +4,7 @@
     {
       "id": "monkey-shoulder-whisky",
       "name": "Monkey Shoulder Blended Malt Scotch Whisky",
-      "description": "Triple malt Scotch, smooth enough to drink neat but made for cocktails. 700ml is the standard bottle; 1L also available.",
+      "description": "Blended malt Scotch whisky. Smooth enough to drink neat, commonly used in cocktails.",
       "priority": "medium",
       "price_aud": 60,
       "retailers": [
@@ -24,43 +24,37 @@
       "lead_time": "In stock",
       "perth_available": true,
       "added": "2026-05-16",
-      "notes": "Price is approximate (~$55–65) — check Dan Murphy's directly for current price. Any Perth Dan Murphy's or BWS will stock this."
+      "notes": "Price approximate (~$55–65) — check Dan Murphy's for current price. Any Perth Dan Murphy's or BWS will stock it. 700ml standard; 1L also available."
     },
     {
       "id": "moment-anamorphic-lens",
       "name": "Moment 1.33x Anamorphic Lens + Pixel 9 Pro Case",
-      "description": "Clip-on anamorphic lens giving a 2.4:1 cinematic widescreen ratio with horizontal lens flares. The Moment case for Pixel 9 Pro has a built-in drop-in mount so the lens sits perfectly centred — much more reliable than a universal clip. Gold or blue flare options.",
+      "description": "Nathan's taking a big trip and wants proper cinematic video on his phone. This is the lens that does it — widescreen 2.4:1 ratio with those horizontal lens flares you see in films. Heads up: this is two separate purchases. The lens is ~$250 and requires a specific Moment case for the Pixel 9 Pro (~$70) to mount properly — total around $320.",
       "priority": "high",
       "price_aud": 320,
       "retailers": [
         {
-          "name": "Moment ANZ — Anamorphic 1.33x Lens",
+          "name": "Moment ANZ — Anamorphic 1.33x Lens (~$250)",
           "url": "https://shopmoment.au/collections/moment",
           "price_aud": 250,
           "perth_stores": false
         },
         {
-          "name": "Moment ANZ — Pixel 9 Pro Case (required for lens mount)",
+          "name": "Moment ANZ — Pixel 9 Pro Case, required (~$70)",
           "url": "https://shopmoment.au/products/moment-case-for-pixel-9-pro-xl-compatible-with-magsafe",
           "price_aud": 70,
-          "perth_stores": false
-        },
-        {
-          "name": "Amazon AU (lens only, check compatibility)",
-          "url": "https://www.amazon.com.au/Moment-Anamorphic-iPhone-Samsung-OnePlus/dp/B07FK5DVBL",
-          "price_aud": null,
           "perth_stores": false
         }
       ],
       "lead_time": "Ships from Moment ANZ — typically 3–7 days to Perth",
       "perth_available": false,
       "added": "2026-05-16",
-      "notes": "~$250 for the lens + ~$70 for the Pixel 9 Pro case = ~$320 total. The case is necessary — Moment moved away from universal clips for newer Pixels. Sirui is the other high-quality alternative worth comparing."
+      "notes": "Gold or blue flare options — either is fine. Sirui is a quality alternative worth comparing. Both items ship from Moment's Australian store."
     },
     {
       "id": "magnetic-levitating-globe",
       "name": "Magnetic Levitating Globe with LED Light",
-      "description": "Floating, self-rotating illuminated globe on an electromagnetic base. Good desk toy. Aim for a larger base model (20cm+ globe) over the cheap 8cm ones — the bigger ones look substantially better.",
+      "description": "Cool desk toy for Nathan's apartment — a globe that floats and spins above its base using magnets and lights up. Just something fun to have.",
       "priority": "low",
       "price_aud": 80,
       "retailers": [
@@ -86,7 +80,7 @@
       "lead_time": "In stock online; Big W Perth stores likely stock these",
       "perth_available": true,
       "added": "2026-05-16",
-      "notes": "Prices vary by size/quality ($50–150). Check Big W first for easy in-person purchase. Avoid the tiny 8cm ones, they're underwhelming."
+      "notes": "Prices vary by size ($50–150). Go for a larger model (20cm+ globe) — the tiny 8cm ones are underwhelming. Check Big W first for easy in-person purchase."
     }
   ]
 }

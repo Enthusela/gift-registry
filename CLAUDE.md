@@ -4,19 +4,21 @@ Gift data lives at `site/data/gifts.json`. When Nathan asks you to add something
 
 ## Steps
 
-1. **Research the item** using web search:
+1. **Ask why Nathan wants it** — if he hasn't already said, ask before doing anything else. The reason goes in `description` and is the first thing someone reading the list will see. Don't skip this.
+
+2. **Research the item** using web search:
    - Current Australian retail price (AUD)
    - Best Australian retailers: JB Hi-Fi, Harvey Norman, Officeworks, Amazon AU, Myer, etc.
    - Perth, WA availability — check if JB Hi-Fi or Harvey Norman Perth stores stock it
    - Lead time: in stock, 1–2 weeks, ships from overseas, etc.
    - Direct product URL for each retailer
 
-2. **Append to the `items` array** in `site/data/gifts.json`:
+3. **Append to the `items` array** in `site/data/gifts.json`:
 ```json
 {
   "id": "short-kebab-slug",
   "name": "Product Name",
-  "description": "1–2 sentences. Include any preferences Nathan mentioned (colour, size, etc.).",
+  "description": "Written in third person. Lead with why Nathan wants it, then what it is in plain terms. If it requires multiple purchases (e.g. lens + case), call that out clearly with a price breakdown here — don't bury it in notes.",
   "priority": "high|medium|low",
   "price_aud": 149,
   "retailers": [
@@ -34,7 +36,7 @@ Gift data lives at `site/data/gifts.json`. When Nathan asks you to add something
 }
 ```
 
-3. **Update `last_updated`** at the top of the JSON to today's date.
+4. **Update `last_updated`** at the top of the JSON to today's date.
 
 ## Priority guide
 - `high` — Nathan said he really wants it
@@ -45,4 +47,5 @@ Gift data lives at `site/data/gifts.json`. When Nathan asks you to add something
 - Never guess prices — use real search results
 - Never fabricate retailer URLs — verify they resolve
 - Don't add items Nathan didn't ask for
+- Never invent a motivation. If Nathan hasn't given one, use a plain factual description of the product with no reference to any person.
 - `notes` can be empty string `""` if nothing to add
