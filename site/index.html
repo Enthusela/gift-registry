@@ -145,7 +145,21 @@
 
     /* Options (multi-product items) */
 
-    .options-list { display: flex; flex-direction: column; gap: 0.5rem; margin-top: 0.3rem; }
+    .options-section {
+      border: 1px solid #d4ccc3;
+      border-radius: 10px;
+      padding: 0.75rem;
+      margin-top: 0.3rem;
+    }
+
+    .options-heading {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: #1a1208;
+      margin-bottom: 0.65rem;
+    }
+
+    .options-list { display: flex; flex-direction: column; gap: 0.5rem; }
 
     .option-block {
       border: 1px solid #ede8e0;
@@ -372,7 +386,7 @@
           ${opt.purchasing_notes ? `<div class="purchasing-notes">${esc(opt.purchasing_notes)}</div>` : ''}
         </div>
       `).join('');
-      buySection = `<div class="where-label">Options</div><div class="options-list">${blocks}</div>`;
+      buySection = `<div class="options-section"><div class="options-heading">Options</div><div class="options-list">${blocks}</div></div>`;
 
     } else if (item.retailers?.length) {
       buySection = `
