@@ -1,4 +1,92 @@
 {
   "last_updated": "2026-05-16",
-  "items": []
+  "items": [
+    {
+      "id": "monkey-shoulder-whisky",
+      "name": "Monkey Shoulder Blended Malt Scotch Whisky",
+      "description": "Triple malt Scotch, smooth enough to drink neat but made for cocktails. 700ml is the standard bottle; 1L also available.",
+      "priority": "medium",
+      "price_aud": 60,
+      "retailers": [
+        {
+          "name": "Dan Murphy's",
+          "url": "https://www.danmurphys.com.au/product/DM_375519/monkey-shoulder-blended-malt-scotch-whisky-700ml",
+          "price_aud": 60,
+          "perth_stores": true
+        },
+        {
+          "name": "BWS",
+          "url": "https://bws.com.au/product/375519/monkey-shoulder-blended-malt-scotch-whisky-700ml",
+          "price_aud": 62,
+          "perth_stores": true
+        }
+      ],
+      "lead_time": "In stock",
+      "perth_available": true,
+      "added": "2026-05-16",
+      "notes": "Price is approximate (~$55–65) — check Dan Murphy's directly for current price. Any Perth Dan Murphy's or BWS will stock this."
+    },
+    {
+      "id": "moment-anamorphic-lens",
+      "name": "Moment 1.33x Anamorphic Lens + Pixel 9 Pro Case",
+      "description": "Clip-on anamorphic lens giving a 2.4:1 cinematic widescreen ratio with horizontal lens flares. The Moment case for Pixel 9 Pro has a built-in drop-in mount so the lens sits perfectly centred — much more reliable than a universal clip. Gold or blue flare options.",
+      "priority": "high",
+      "price_aud": 320,
+      "retailers": [
+        {
+          "name": "Moment ANZ — Anamorphic 1.33x Lens",
+          "url": "https://shopmoment.au/collections/moment",
+          "price_aud": 250,
+          "perth_stores": false
+        },
+        {
+          "name": "Moment ANZ — Pixel 9 Pro Case (required for lens mount)",
+          "url": "https://shopmoment.au/products/moment-case-for-pixel-9-pro-xl-compatible-with-magsafe",
+          "price_aud": 70,
+          "perth_stores": false
+        },
+        {
+          "name": "Amazon AU (lens only, check compatibility)",
+          "url": "https://www.amazon.com.au/Moment-Anamorphic-iPhone-Samsung-OnePlus/dp/B07FK5DVBL",
+          "price_aud": null,
+          "perth_stores": false
+        }
+      ],
+      "lead_time": "Ships from Moment ANZ — typically 3–7 days to Perth",
+      "perth_available": false,
+      "added": "2026-05-16",
+      "notes": "~$250 for the lens + ~$70 for the Pixel 9 Pro case = ~$320 total. The case is necessary — Moment moved away from universal clips for newer Pixels. Sirui is the other high-quality alternative worth comparing."
+    },
+    {
+      "id": "magnetic-levitating-globe",
+      "name": "Magnetic Levitating Globe with LED Light",
+      "description": "Floating, self-rotating illuminated globe on an electromagnetic base. Good desk toy. Aim for a larger base model (20cm+ globe) over the cheap 8cm ones — the bigger ones look substantially better.",
+      "priority": "low",
+      "price_aud": 80,
+      "retailers": [
+        {
+          "name": "Big W (in-store and online)",
+          "url": "https://www.bigw.com.au/product/magnetic-levitating-floating-rotating-globe-with-touch-switches-led-light/p/9900084296",
+          "price_aud": null,
+          "perth_stores": true
+        },
+        {
+          "name": "Kogan",
+          "url": "https://www.kogan.com/au/buy/bostestore-magnetic-levitating-floating-rotating-globe-world-map-anti-gravity-6-inch-gift-f0185/",
+          "price_aud": null,
+          "perth_stores": false
+        },
+        {
+          "name": "Amazon AU (browse options)",
+          "url": "https://www.amazon.com.au/levitating-globe/s?k=levitating+globe",
+          "price_aud": null,
+          "perth_stores": false
+        }
+      ],
+      "lead_time": "In stock online; Big W Perth stores likely stock these",
+      "perth_available": true,
+      "added": "2026-05-16",
+      "notes": "Prices vary by size/quality ($50–150). Check Big W first for easy in-person purchase. Avoid the tiny 8cm ones, they're underwhelming."
+    }
+  ]
 }
