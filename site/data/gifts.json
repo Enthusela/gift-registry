@@ -1,86 +1,174 @@
 {
+  "birthday": "2026-06-24",
   "last_updated": "2026-05-16",
   "items": [
+    {
+      "id": "anamorphic-phone-lens",
+      "name": "Anamorphic Phone Lens",
+      "description": "Nathan's taking a big trip and wants proper cinematic video on his Pixel 9 Pro. An anamorphic lens gives a widescreen 2.4:1 ratio with those horizontal lens flares you see in films.",
+      "priority": "high",
+      "lead_time": "2–4 days",
+      "added": "2026-05-16",
+      "options": [
+        {
+          "name": "Sirui VD-01 1.33x",
+          "price_aud": 120,
+          "retailers": [
+            {
+              "name": "Amazon AU",
+              "url": "https://www.amazon.com.au/SIRUI-VD-01-Anamorphic-Smartphones-Cinema/dp/B07KD2XJD1",
+              "price_aud": 120,
+              "perth_stores": false,
+              "lead_time": "2–4 days",
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            }
+          ],
+          "purchasing_notes": "Uses a universal clip mount — attaches to any phone, no dedicated case required."
+        },
+        {
+          "name": "Moment 1.33x",
+          "price_aud": 320,
+          "retailers": [
+            {
+              "name": "Moment ANZ",
+              "url": "https://shopmoment.au/collections/moment",
+              "price_aud": 320,
+              "perth_stores": false,
+              "lead_time": "3–7 days",
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            }
+          ],
+          "purchasing_notes": "Two separate purchases: the lens (~$250) and the Pixel 9 Pro case (~$70). Both from Moment ANZ. Available in gold or blue flare."
+        }
+      ]
+    },
+    {
+      "id": "action-camera",
+      "name": "Action Camera",
+      "description": "Nathan's heading to Brazil and wants a rugged waterproof camera for outdoor adventures — beaches, waterfalls, that sort of thing.",
+      "priority": "medium",
+      "lead_time": "In stock",
+      "added": "2026-05-16",
+      "options": [
+        {
+          "name": "GoPro Hero 2024",
+          "preferred": true,
+          "price_aud": 349,
+          "retailers": [
+            {
+              "name": "JB Hi-Fi",
+              "url": "https://www.jbhifi.com.au/collections/cameras/gopro-cameras",
+              "price_aud": 349,
+              "perth_stores": true,
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            },
+            {
+              "name": "Harvey Norman",
+              "url": "https://www.harveynorman.com.au/gopro-hero-2024-action-video-camera.html",
+              "price_aud": 349,
+              "perth_stores": true,
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            }
+          ]
+        },
+        {
+          "name": "GoPro Hero13 Black",
+          "price_aud": 477,
+          "retailers": [
+            {
+              "name": "JB Hi-Fi",
+              "url": "https://www.jbhifi.com.au/products/gopro-hero13-black-5-3k-hypersmooth-6-0-action-cam",
+              "price_aud": 477,
+              "perth_stores": true,
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            },
+            {
+              "name": "Harvey Norman",
+              "url": "https://www.harveynorman.com.au/gopro-hero13-black-action-video-camera.html",
+              "price_aud": 444,
+              "perth_stores": true,
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            }
+          ]
+        },
+        {
+          "name": "DJI Osmo Action 4",
+          "price_aud": 346,
+          "retailers": [
+            {
+              "name": "JB Hi-Fi",
+              "url": "https://www.jbhifi.com.au/products/dji-osmo-action-4-standard-combo",
+              "price_aud": 349,
+              "perth_stores": true,
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            },
+            {
+              "name": "digiDirect",
+              "url": "https://www.digidirect.com.au/dji-osmo-action-4-standard-combo",
+              "price_aud": 346,
+              "perth_stores": false,
+              "lead_time": "3–5 days",
+              "stock": { "status": "Unknown", "checked": "2026-05-16" }
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "monkey-shoulder-whisky",
       "name": "Monkey Shoulder Blended Malt Scotch Whisky",
       "description": "Blended malt Scotch whisky. Smooth enough to drink neat, commonly used in cocktails.",
       "priority": "medium",
       "price_aud": 60,
+      "lead_time": "In stock",
+      "added": "2026-05-16",
       "retailers": [
         {
           "name": "Dan Murphy's",
           "url": "https://www.danmurphys.com.au/product/DM_375519/monkey-shoulder-blended-malt-scotch-whisky-700ml",
           "price_aud": 60,
-          "perth_stores": true
+          "perth_stores": true,
+          "stock": { "status": "Unknown", "checked": "2026-05-16" }
         },
         {
           "name": "BWS",
           "url": "https://bws.com.au/product/375519/monkey-shoulder-blended-malt-scotch-whisky-700ml",
           "price_aud": 62,
-          "perth_stores": true
+          "perth_stores": true,
+          "stock": { "status": "Unknown", "checked": "2026-05-16" }
         }
       ],
-      "lead_time": "In stock",
-      "perth_available": true,
-      "added": "2026-05-16",
-      "notes": "Price approximate (~$55–65) — check Dan Murphy's for current price. Any Perth Dan Murphy's or BWS will stock it. 700ml standard; 1L also available."
-    },
-    {
-      "id": "moment-anamorphic-lens",
-      "name": "Moment 1.33x Anamorphic Lens + Pixel 9 Pro Case",
-      "description": "Nathan's taking a big trip and wants proper cinematic video on his phone. This is the lens that does it — widescreen 2.4:1 ratio with those horizontal lens flares you see in films. Heads up: this is two separate purchases. The lens is ~$250 and requires a specific Moment case for the Pixel 9 Pro (~$70) to mount properly — total around $320.",
-      "priority": "high",
-      "price_aud": 320,
-      "retailers": [
-        {
-          "name": "Moment ANZ — Anamorphic 1.33x Lens (~$250)",
-          "url": "https://shopmoment.au/collections/moment",
-          "price_aud": 250,
-          "perth_stores": false
-        },
-        {
-          "name": "Moment ANZ — Pixel 9 Pro Case, required (~$70)",
-          "url": "https://shopmoment.au/products/moment-case-for-pixel-9-pro-xl-compatible-with-magsafe",
-          "price_aud": 70,
-          "perth_stores": false
-        }
-      ],
-      "lead_time": "Ships from Moment ANZ — typically 3–7 days to Perth",
-      "perth_available": false,
-      "added": "2026-05-16",
-      "notes": "Gold or blue flare options — either is fine. Sirui is a quality alternative worth comparing. Both items ship from Moment's Australian store."
+      "purchasing_notes": "Price approximate (~$55–65) — check Dan Murphy's for current price. 700ml standard; 1L also available."
     },
     {
       "id": "magnetic-levitating-globe",
       "name": "Magnetic Levitating Globe with LED Light",
-      "description": "Cool desk toy for Nathan's apartment — a globe that floats and spins above its base using magnets and lights up. Just something fun to have.",
+      "description": "Cool desk toy for Nathan's apartment — a globe that floats and spins above its base using magnets and lights up.",
       "priority": "low",
       "price_aud": 80,
+      "lead_time": "In stock",
+      "added": "2026-05-16",
       "retailers": [
         {
-          "name": "Big W (in-store and online)",
+          "name": "Big W",
           "url": "https://www.bigw.com.au/product/magnetic-levitating-floating-rotating-globe-with-touch-switches-led-light/p/9900084296",
-          "price_aud": null,
-          "perth_stores": true
+          "perth_stores": true,
+          "stock": { "status": "Unknown", "checked": "2026-05-16" }
         },
         {
           "name": "Kogan",
           "url": "https://www.kogan.com/au/buy/bostestore-magnetic-levitating-floating-rotating-globe-world-map-anti-gravity-6-inch-gift-f0185/",
-          "price_aud": null,
-          "perth_stores": false
+          "perth_stores": false,
+          "stock": { "status": "Unknown", "checked": "2026-05-16" }
         },
         {
-          "name": "Amazon AU (browse options)",
+          "name": "Amazon AU",
           "url": "https://www.amazon.com.au/levitating-globe/s?k=levitating+globe",
-          "price_aud": null,
-          "perth_stores": false
+          "perth_stores": false,
+          "stock": { "status": "Unknown", "checked": "2026-05-16" }
         }
       ],
-      "lead_time": "In stock online; Big W Perth stores likely stock these",
-      "perth_available": true,
-      "added": "2026-05-16",
-      "notes": "Prices vary by size ($50–150). Go for a larger model (20cm+ globe) — the tiny 8cm ones are underwhelming. Check Big W first for easy in-person purchase."
+      "purchasing_notes": "Prices vary by size and quality (~$50–150). Check Big W first for easy in-person purchase."
     }
   ]
 }
